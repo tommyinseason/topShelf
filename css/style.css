@@ -1,0 +1,144 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+nav ul a,
+nav .brand-logo {
+  color: #444;
+  font-family: 'Poiret One', cursive;
+  color: white;
+  font-size: 22pt;
+}
+
+p {
+  line-height: 2rem;
+}
+
+.button-collapse {
+  color: #26a69a;
+}
+
+.parallax-container {
+  min-height: 600px;
+  max-height: 700px;
+  line-height: 0;
+  height: auto;
+  color: rgba(255,255,255,.9);
+}
+  .parallax-container .section {
+    width: 100%;
+  }
+
+@media only screen and (max-width : 992px) {
+  .parallax-container .section {
+    position: absolute;
+    top: 40%;
+  }
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+  #clubicons {
+    height: 20%;
+    width: 20%;
+  }
+  #limoicons {
+    height: 9%;
+    width: 9%;
+  }
+  #baricons {
+    height: 6%;
+    width: 6%;
+  }
+  #hotelicon {
+    height: 16%;
+    width: 16%;
+  }
+  .logotext {
+    font-size: 11pt;
+    align-items: left;
+  }
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+  font-size: inherit;
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+h1 {
+  font-family: 'Bungee Shade', cursive;
+  color: white;
+  font-size: 26pt;
+}
+.modern {
+  height: 30px;
+}
+#download-button {
+  padding-top: 300px;
+  width: 800px;
+}
+#homepageicons {
+  height: 100px;
+}
+.collection-header {
+  font-family: 'Ultra', serif;
+  text-align: center;
+  text-shadow: 4px;
+  height: 60px;
+  text-decoration-style: bold;
+  padding-bottom: 50px;
+  background-color: slategrey;
+}
+.btn-large {
+  border: solid;
+  border-color: white;
+  width: 450px;
+  font-family: 'Holtwood One SC', serif;
+  font-size: 23pt;
+  padding-bottom: 15px;
+  color: white;
+}
+h5 {
+  font-family: 'Poiret One', cursive;
+  font-size: 26pt;
+}
+
+ h3 {
+  font-family: 'Holtwood One SC', serif;
+}
+h2 {
+  font-family: 'Bungee Shade', cursive;
+}
+nav {
+  position: fixed;
+  z-index: 1;
+}
+h6 {
+  font-family: 'Cinzel', serif;
+  color: black;
+}
+.footer
+
+font-family: 'Cinzel', serif;
+font-family: 'Righteous', cursive;
+font-family: 'Poiret One', cursive;
+font-family: 'Ultra', serif;
+font-family: 'Monoton', cursive;
+font-family: 'Yesteryear', cursive;
+font-family: 'Fontdiner Swanky', cursive;
+font-family: 'Holtwood One SC', serif;
+font-family: 'Bungee Shade', cursive;
