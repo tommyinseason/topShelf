@@ -49,18 +49,18 @@ p {
   }
 }
   #clubicons {
-    height: 20%;
-    width: 20%;
+    height: 100px;
+    width: 180px;
   }
   #limoicons {
-    height: 9%;
-    width: 9%;
+    height: 90px;
+    width: 160px;
   }
   #baricons {
     height: 6%;
     width: 6%;
   }
-  #hotelicon {
+  #hotelicons {
     height: 16%;
     width: 16%;
   }
@@ -98,7 +98,7 @@ h1 {
   font-family: 'Ultra', serif;
   text-align: center;
   text-shadow: 4px;
-  height: 60px;
+  height: 90px;
   text-decoration-style: bold;
   padding-bottom: 50px;
   background-color: slategrey;
@@ -112,26 +112,62 @@ h1 {
   padding-bottom: 15px;
   color: white;
 }
+h2 {
+  font-family: 'Cinzel', serif;
+}
+h3 {
+  font-family: 'Holtwood One SC', serif;
+}
 h5 {
   font-family: 'Poiret One', cursive;
   font-size: 26pt;
-}
-
- h3 {
-  font-family: 'Holtwood One SC', serif;
-}
-h2 {
-  font-family: 'Bungee Shade', cursive;
-}
-nav {
-  position: fixed;
-  z-index: 1;
 }
 h6 {
   font-family: 'Cinzel', serif;
   color: black;
 }
-.footer
+nav {
+  position: fixed;
+  z-index: 1;
+}
+
+.hvr-buzz {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px transparent;
+}
+.hvr-buzz:hover, .hvr-buzz:focus, .hvr-buzz:active {
+  -webkit-animation-name: hvr-buzz;
+  animation-name: hvr-buzz;
+  -webkit-animation-duration: 0.15s;
+  animation-duration: 0.15s;
+  -webkit-animation-timing-function: linear;
+  animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+}
+#navbaricons {
+  height: 60px;
+  width: 150px;
+}
+.first-header {
+  margin-top: 10px;
+}
+.container {
+  width: 85%;
+}
+.card-header {
+  color: white;
+}
+.firstcard {
+  margin-top: 60px;
+}
+.row {
+  height: 80%;
+}
+
 
 font-family: 'Cinzel', serif;
 font-family: 'Righteous', cursive;
